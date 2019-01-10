@@ -33,4 +33,4 @@ make install
 
 cd $cwd
 rm -rf opencv
-rm -rf opencv-contrib
+rm -rf opencv_contrib
