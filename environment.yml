@@ -5,6 +5,7 @@ channels:
 dependencies:
     - xeus-cling
     - pip:
+        - cmake
         - opencv-contrib-python
         - wheel
         - numpy
