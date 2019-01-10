@@ -1,0 +1,9 @@
+name: opencv-environment
+channels:
+    - conda-forge
+    - quantstack
+dependencies:
+    - numpy
+    - xeus-cling
+    - pip:
+        - opencv-contrib-python
