@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Install something
+apt -y install git cmake
+git clone https://github.com/opencv/opencv_contrib.git
+
