@@ -114,3 +114,39 @@
 [NotebookApp | INFO] interrupted
 [NotebookApp | CRITICAL] Shutdown confirmed
 [NotebookApp | INFO] Shutting down 0 kernels
+[NotebookApp | ERROR] Exception while loading config file /etc/jupyter/nbgrader_config.py
+    Traceback (most recent call last):
+      File "/home/hp/workfolder/python/anaconda3/lib/python3.6/site-packages/traitlets/config/application.py", line 562, in _load_config_files
+        config = loader.load_config()
+      File "/home/hp/workfolder/python/anaconda3/lib/python3.6/site-packages/traitlets/config/loader.py", line 457, in load_config
+        self._read_file_as_dict()
+      File "/home/hp/workfolder/python/anaconda3/lib/python3.6/site-packages/traitlets/config/loader.py", line 489, in _read_file_as_dict
+        py3compat.execfile(conf_filename, namespace)
+      File "/home/hp/workfolder/python/anaconda3/lib/python3.6/site-packages/ipython_genutils/py3compat.py", line 198, in execfile
+        exec(compiler(f.read(), fname, 'exec'), glob, loc)
+      File "/etc/jupyter/nbgrader_config.py", line 29
+        "C++14": "// your code here\nthrow new Error();"
+               ^
+    SyntaxError: invalid syntax
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] nteract extension loaded from /home/hp/workfolder/python/anaconda3/lib/python3.6/site-packages/nteract_on_jupyter
+[NotebookApp | INFO] Serving notebooks from local directory: /home/hp/workfolder/cv4faces/OpenCV-Course/OpenCV-Basics/Binder-Numpy
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=28c7b925883a4185569d40e32b66ecd4d7d13bfa309721a2
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=28c7b925883a4185569d40e32b66ecd4d7d13bfa309721a2
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from 127.0.0.1
+[NotebookApp | INFO] Creating new file in 
+[NotebookApp | INFO] Kernel started: 1dca55f0-98b4-40cc-aedf-a3e2d31b87c7
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 1dca55f0-98b4-40cc-aedf-a3e2d31b87c7
+[NotebookApp | INFO] Starting buffering for 1dca55f0-98b4-40cc-aedf-a3e2d31b87c7:90eae57762bc4bfa9758b6a1d40287ea
+[NotebookApp | INFO] Saving file at /includeLibraries.h
+[NotebookApp | INFO] Saving file at /includeLibraries.h
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | INFO] Kernel shutdown: 1dca55f0-98b4-40cc-aedf-a3e2d31b87c7
