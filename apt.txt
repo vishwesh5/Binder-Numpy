@@ -6,7 +6,6 @@ yasm
 git
 gfortran
 libjpeg8-dev 
-libjasper1 
 libpng-dev
 libtiff5-dev
 libtiff-dev
